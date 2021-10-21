@@ -107,54 +107,69 @@ drwxrwxrwx 2 root root 4096 Oct 12 12:45 w_gromov
 ЗАДАНИЕ 15 - root@d4e8f3ca43df:/ ls -F
 alenamas/ boot/ dev/ home/ lib32@ libx32@ mnt/ opt/ root/ sbin@ sumbulov/ tmp/ usr/ w_gromov/
 bin@ classics/ etc/ lib@ lib64@ media/ my_bin/ proc/ run/ srv/ sys/ txt.txt* var/
+
 Задание 16 - root@d4e8f3ca43df:/# cd classics
 root@d4e8f3ca43df:/classics#
+
 ЗАДАНИЕ 17 - root@d4e8f3ca43df:/# cd etc
 root@d4e8f3ca43df:/etc# cd X11
 root@d4e8f3ca43df:/etc/X11#
+
 ЗАДАНИЕ 18 - root@d4e8f3ca43df:~# pwd
 /root
+
 ЗАДАНИЕ 19 - root@d4e8f3ca43df:~cd /
 root@d4e8f3ca43df:/# cd etc
 root@d4e8f3ca43df:/etc#
+
 ЗАДАНИЕ 20 - root@d4e8f3ca43df:/etc# cd group
 bash: cd: group: Not a directory
+
 ЗАДАНИЕ 21 - less passwd&&group
+
 ЗАДАНИЕ 22 - root@d4e8f3ca43df:/etc# head -n 5 passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
 sys:x:3:3:sys:/dev:/usr/sbin/nologin
 sync:x:4:65534:sync:/bin:/bin/sync
-ЗАД
-АНИЕ 23 - root@d4e8f3ca43df:/etc# head -n 3 passwd
+
+ЗАДАНИЕ 23 - root@d4e8f3ca43df:/etc# head -n 3 passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
+
 ЗАДАНИЕ 24 - root@d4e8f3ca43df:/etc# wc passwd
 33 38 1561 passwd
+
 ЗАДАНИЕ 25 - root@d4e8f3ca43df:/# cd student
 root@d4e8f3ca43df:/student#
+
 ЗАДАНИЕ 26 - root@d4e8f3ca43df:/student# touch file1
 root@d4e8f3ca43df:/student# touch file2
 root@d4e8f3ca43df:/student# touch file3
 root@d4e8f3ca43df:/student# ls
 file1 file2 file3
+
 ЗАДАНИЕ 27 - root@d4e8f3ca43df:/student# mkdir dir1
 root@d4e8f3ca43df:/student# mkdir dir2
 root@d4e8f3ca43df:/student# mkdir dir3
 root@d4e8f3ca43df:/student# ls
 dir1 dir2 dir3 file1 file2 file3
+
 ЗАДАНИЕ 28 - root@d4e8f3ca43df:/student# cp file1 dir1
 root@d4e8f3ca43df:/student# tree
 bash: tree: command not found
 root@d4e8f3ca43df:/student# cd dir1
 root@d4e8f3ca43df:/student/dir1# ls
 file1
+
 ЗАДАНИЕ 29 - root@d4e8f3ca43df:/etc# cp ssh ../dir2/
+
 ЗАДАНИЕ 30 - root@d4e8f3ca43df:/student/dir3# mkdir vegetables
 root@d4e8f3ca43df:/student/dir3# ls
 vegetables
+
 ЗАДАНИЕ 31 - root@d4e8f3ca43df:/student/dir2/ssh# mv sshd_config /student/dir3/vegetables
 root@d4e8f3ca43df:/student/dir3/vegetables# ls
 sshd_config
