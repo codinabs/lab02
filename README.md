@@ -15,10 +15,13 @@ Linux d4e8f3ca43df 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 
 
 ЗАДАНИЕ 4 - root@d4e8f3ca43df:~# uname -s
 Linux
+
 ЗАДАНИЕ 5 - root@d4e8f3ca43df:~# uname -r
 4.19.0-16-amd64
+
 ЗАДАНИЕ 6 - root@d4e8f3ca43df:~# date
 Fri Oct 15 12:46:03 UTC 2021
+
 ЗАДАНИЕ 7 - root@d4e8f3ca43df:~# cal
 October 2021
 Su Mo Tu We Th Fr Sa
@@ -28,10 +31,15 @@ Su Mo Tu We Th Fr Sa
 17 18 19 20 21 22 23
 24 25 26 27 28 29 30
 31
+
 Задание - 8 &&
+
 Задание - 9 clear
+
 Задание 10 - команда pwd
+
 Задание 11 - root@d4e8f3ca43df:/home# cd user
+
 Задание 12 - root@d4e8f3ca43df:~# ls
 curutum test test1 umar
 root@d4e8f3ca43df:~# ls -R
@@ -61,9 +69,11 @@ subtest2
 subumar
 
 ./umar/subumar:
+
 ЗАДАНИЕ 13 - root@d4e8f3ca43df:/# ls -a
 . .dockerenv bin classics etc lib lib64 media my_bin proc run srv sys txt.txt var
 .. alenamas boot dev home lib32 libx32 mnt opt root sbin sumbulov tmp usr w_gromov
+
 ЗАДАНИЕ 14 - root@d4e8f3ca43df:/ ls -l
 total 80
 drwxr-xr-x 2 root root 4096 Sep 29 13:41 alenamas
@@ -93,6 +103,7 @@ drwxrwxrwt 1 root root 4096 Oct 15 12:35 tmp
 drwxr-xr-x 1 root root 4096 Aug 27 07:16 usr
 drwxr-xr-x 1 root root 4096 Aug 27 07:27 var
 drwxrwxrwx 2 root root 4096 Oct 12 12:45 w_gromov
+
 ЗАДАНИЕ 15 - root@d4e8f3ca43df:/ ls -F
 alenamas/ boot/ dev/ home/ lib32@ libx32@ mnt/ opt/ root/ sbin@ sumbulov/ tmp/ usr/ w_gromov/
 bin@ classics/ etc/ lib@ lib64@ media/ my_bin/ proc/ run/ srv/ sys/ txt.txt* var/
