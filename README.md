@@ -5,11 +5,14 @@ temp1/ temp2/ test/ user/ user1/ user2/ user3/
 root@d4e8f3ca43df:/home# mkdir umar1
 root@d4e8f3ca43df:/home# ls -F —color
 temp1/ temp2/ test/ umar1/ user/ user1/ user2/ user3/
+
 ЗАДАНИЕ 2 - root@d4e8f3ca43df:/home# rmdir umar1
 root@d4e8f3ca43df:/home# ls -F —color
 temp1/ temp2/ test/ user/ user1/ user2/ user3/
+
 ЗАДАНИЕ 3 - root@d4e8f3ca43df:~# uname -a
 Linux d4e8f3ca43df 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 x86_64 x86_64 GNU/Linux
+
 ЗАДАНИЕ 4 - root@d4e8f3ca43df:~# uname -s
 Linux
 ЗАДАНИЕ 5 - root@d4e8f3ca43df:~# uname -r
